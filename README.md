@@ -17,7 +17,7 @@ NIM     : 00000079812
 Jurusan : Teknik Informatika
 Kelas   : IF231-J
 
-Nama    : Muhammad Daffa
+Nama    : Muhammad Daffa Rayyanda
 NIM     : 00000082247
 Jurusan : Teknik Informatika
 Kelas   : IF231-J
