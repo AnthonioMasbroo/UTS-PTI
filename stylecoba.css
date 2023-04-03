@@ -1,0 +1,183 @@
+body {
+	background-size: cover;
+  }
+ .logo {
+  justify-content: center;
+  display: flex;
+}
+.logo img {
+  width: 100px;
+  margin-top: 20px;
+}
+
+.judul {
+  justify-content: center;
+  display: flex;
+  border-bottom: 5px solid rgb(68, 67, 67);
+}
+.judul p {
+  font-size: 14pt;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+
+  
+  .activity-buttons {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+	}
+	
+	.tombol{
+		justify-content: center;
+		display: flex;
+	}
+	.tombol button{
+		padding: 15px 25px 15px 25px;
+		border-radius: 5px;
+		background-color: #2196f3;
+		color: antiquewhite;
+		font-weight: bold;
+		font-size: 20px;
+		font-family: "PixleText";
+		border-color: #00aef3;
+	}
+	.tombol button:hover{
+		background-color: #00d7f3;
+	}
+	
+	.avatar{
+		width: 50%;
+		display: flex;
+		margin-left: auto;
+		margin-right: auto;
+		justify-content: center;
+	}
+	.avatar img {
+		width: 50%;
+	}
+	.greetings {
+		font-family: "PixleText";   
+		color: rgb(10, 0, 0);
+		text-align: center;
+		margin-top: 40px;
+		font-size: 25px;
+	}
+	.btn {
+		font-family: "PixleText";
+		font-size: 20px;
+		padding: 14px 30px;
+		margin-bottom: 20px;
+	}
+	.btnMkn{
+		padding: 15px 25px 15px 25px;
+		border-radius: 5px;
+		background-color: #2196f3;
+		color: antiquewhite;
+		font-weight: bold;
+		border-color: #00aef3;
+	}
+	.btnMkn:hover{
+		background-color: #00d7f3;
+	}
+	.btnMai{
+		padding: 15px 25px 15px 25px;
+		border-radius: 5px;
+		background-color: #2196f3;
+		color: antiquewhite;
+		font-weight: bold;
+		border-color: #00aef3;
+	}
+	.btnMai:hover{
+		background-color: #00d7f3;
+	}
+	.btnObt{
+		padding: 15px 25px 15px 25px;
+		border-radius: 5px;
+		background-color: #2196f3;
+		color: antiquewhite;
+		font-weight: bold;
+		border-color: #00aef3;
+	}
+	.btnObt:hover{
+		background-color: #00d7f3;
+	}
+	.btnTdr{
+		padding: 15px 25px 15px 25px;
+		border-radius: 5px;
+		background-color: #2196f3;
+		color: antiquewhite;
+		font-weight: bold;
+		border-color: #00aef3;
+	}
+	.btnTdr:hover{
+		background-color: #00d7f3;
+	}
+	.bodyTengah {
+		text-align: center;
+		margin-top: 40px;
+		font-size: 25px;
+		margin-top: 20px;
+	}
+	.bar {
+		margin-top: 50px;
+	}
+	
+	#health {
+		height: 20px;
+		width: 200px;
+		background-color: #6e6c6c;
+	  }
+	  
+	  #food {
+		height: 20px;
+		width: 200px;
+		background-color: #6e6c6c;
+	  }
+	  
+	  #sleep {
+		height: 20px;
+		width: 200px;
+		background-color: #6e6c6c;
+	  }
+	  
+	  #exp {
+		height: 20px;
+		width: 200px;
+		background-color: #6e6c6c;
+	  }
+	  
+	  .bar-container {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		margin-bottom: 10px;
+		justify-content: center;
+	  }
+	  .bar-container2{
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		margin-bottom: 10px;
+		justify-content: center;
+	  }
+
+	  .bar-container label {
+		margin-bottom: 5px;
+		margin-right: 5px;
+		font-weight: bold;
+	  }
+	  .bar-container2 label {
+		margin-bottom: 5px;
+		margin-right: 5px;
+		font-weight: bold;
+	  }
+	  .bar-container meter{
+		margin-right: 10px;
+	  }
+	  .bar-container2 meter{
+		margin-right: 10px;
+	  }
+	  
+	

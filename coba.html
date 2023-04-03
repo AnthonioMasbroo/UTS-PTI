@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>UMN Gotcha</title>
+  <link rel="stylesheet" type="text/css" href="styleCoba.css">
+
+</head>
+
+<body>
+  <div class="logo">
+    <img src="images/logo3.png" class="img-fluid rounded-3" />
+  </div>
+  <div class="judul">
+    <p>UMNGotcha</p>
+  </div>
+  <div class="body">
+    <div class="greetings">
+      <span id="greeting"></span> <span id="nama"></span>
+      <br>
+      <br>
+      <span id="time">06:00</span>
+      <!-- Display the time starting from 06:00 -->
+    </div>
+    <div>
+      <br>
+      <div class="bar-container">
+        <label for="health">Kesehatan</label>
+        <meter value="100" min="0" max="100" low="25" id="health"></meter>
+        <label for="food">Makan</label>
+        <meter value="100" min="0" max="100" low="25" id="food"></meter>
+      </div>
+      <div class="bar-container2">
+        <label for="sleep">Tidur</label>
+        <meter value="100" min="0" max="100" low="25" id="sleep"></meter>
+        <label for="exp">Main</label>
+        <meter value="0" min="0" max="100" low="25" id="exp"></meter>
+      </div>
+      <div class="backgroundImage"></div>
+    </div>
+    <div class="avatar">
+      <img src="images/beruang3.png">
+    </div>
+    <div class="tombol">
+      <button type="button" onclick="playGame()">Play</button>
+    </div>
+    <div class="bodyTengah">
+      <button id="btnMakan" class="btnMkn"><span>MAKAN</span></button>
+      <button id="btnMain" class="btnMai"><span>MAIN</span></button>
+      <button id="btnTidur" class="btnTdr"><span>TIDUR</span></button>
+      <button id="btnObat" class="btnObt"><span>OBAT</span></button>
+    </div>
+  </div>
+  </div>
+  </div>
+  <script src="scriptCoba.js"></script>
+</body>
+
+</html>
